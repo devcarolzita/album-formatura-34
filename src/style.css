@@ -4,13 +4,15 @@
 }
 
 .first-screen {
+  display: flex;
+  justify-content: center;
   background-color: #011e11;
   width: 100vw;
   height: 100vh;
   color: white;
 }
 
-.first-screen h3 {
+.left-container h3 {
   font-family: "Bebas Neue", sans-serif;
   color: #12ff46;
   padding: 76.8px;
@@ -18,7 +20,7 @@
   letter-spacing: 2px;
 }
 
-.first-screen h1 {
+.left-container h1 {
   width: 700px;
   padding-left: 76.8px;
   margin-top: 100px;
@@ -42,4 +44,11 @@
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 3px;
   font-weight: 400;
+}
+
+.right-container img {
+  width: 700px;
+  height: 830px;
+  padding: 40px;
+  size: 500px;
 }
